@@ -14,6 +14,8 @@
 		97D3D7461E4A2FA700553246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97D3D7441E4A2FA700553246 /* LaunchScreen.storyboard */; };
 		97D3D7511E4A2FA800553246 /* collageProfileBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3D7501E4A2FA800553246 /* collageProfileBuilderTests.swift */; };
 		97D3D75C1E4A2FA800553246 /* collageProfileBuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3D75B1E4A2FA800553246 /* collageProfileBuilderUITests.swift */; };
+		97D3D76A1E4B7C8100553246 /* CollagesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3D7691E4B7C8100553246 /* CollagesClass.swift */; };
+		97D3D76C1E4CD47700553246 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D3D76B1E4CD47700553246 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		97D3D7571E4A2FA800553246 /* collageProfileBuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collageProfileBuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D3D75B1E4A2FA800553246 /* collageProfileBuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collageProfileBuilderUITests.swift; sourceTree = "<group>"; };
 		97D3D75D1E4A2FA800553246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D3D7691E4B7C8100553246 /* CollagesClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollagesClass.swift; sourceTree = "<group>"; };
+		97D3D76B1E4CD47700553246 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = detailViewController.swift; path = ../detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				97D3D73B1E4A2FA700553246 /* AppDelegate.swift */,
 				97D3D73D1E4A2FA700553246 /* ViewController.swift */,
 				97D3D73F1E4A2FA700553246 /* Main.storyboard */,
+				97D3D7691E4B7C8100553246 /* CollagesClass.swift */,
+				97D3D76B1E4CD47700553246 /* detailViewController.swift */,
 				97D3D7421E4A2FA700553246 /* Assets.xcassets */,
 				97D3D7441E4A2FA700553246 /* LaunchScreen.storyboard */,
 				97D3D7471E4A2FA700553246 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				97D3D73E1E4A2FA700553246 /* ViewController.swift in Sources */,
 				97D3D73C1E4A2FA700553246 /* AppDelegate.swift in Sources */,
+				97D3D76A1E4B7C8100553246 /* CollagesClass.swift in Sources */,
+				97D3D76C1E4CD47700553246 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
