@@ -13,9 +13,9 @@ class CollagesClass: NSObject
     var name = ""
     var state = ""
     var numberOfPeople = ""
-    var image = UIImageView()
+    var image = UIImage(named: "defualt")
     
-    init(Name:String, State:String, NOP:String, Image:UIImageView)
+    init(Name:String, State:String, NOP:String, Image:UIImage)
     {
         name = Name
         state = State

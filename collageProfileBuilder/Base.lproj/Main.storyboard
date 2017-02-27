@@ -85,7 +85,7 @@
         <!--Detail View Controller-->
         <scene sceneID="Ts0-iA-6Te">
             <objects>
-                <viewController id="0Xv-L2-wXW" customClass="detailViewController" customModule="collageProfileBuilder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Xv-L2-wXW" customClass="DetailViewController" customModule="collageProfileBuilder" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2vf-QW-KHN"/>
                         <viewControllerLayoutGuide type="bottom" id="eVf-5V-svo"/>
@@ -127,6 +127,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="8pd-xa-pib" id="orH-ej-x8M"/>
+                        <outlet property="textField1" destination="bYX-C0-N7x" id="21a-gl-9bq"/>
+                        <outlet property="textField2" destination="MAT-wx-QvL" id="rgP-RS-Bd8"/>
+                        <outlet property="textField3" destination="oR2-uI-0PO" id="wBL-sO-Z5a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebG-2U-rwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

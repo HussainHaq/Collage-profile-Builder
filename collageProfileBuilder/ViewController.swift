@@ -18,9 +18,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        myCollages.append(CollagesClass(Name: "Loyola", State: "Illinios", NOP: "5"))
-         myCollages.append(CollagesClass(Name: "North Western", State: "Illinios", NOP:"5"))
+        myCollages.append(CollagesClass(Name: "Loyola", State: "Illinios", NOP: "5",Image: UIImage(named: "Loyola")!))
         
+        myCollages.append(CollagesClass(Name: "North Western", State: "Illinios", NOP:"5", Image: UIImage(named: "Northwestern")!))
+        
+        myCollages.append(CollagesClass(Name: "UIC", State: "Illinios", NOP:"5", Image: UIImage(named: "UIC")!))
     }
     @IBAction func addButton(_ sender: Any) {
         let alert = UIAlertController(title:"add Collage", message: nil, preferredStyle: .alert)
@@ -72,17 +74,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 myCollages.remove(at: indexPath.row)
                 myTableView.reloadData()
             }
-            override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    }
+           override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 
-                let detailView = segue.destination as! DetailViewController
+                let DetailView = segue.destination as!DetailViewController
                 var selectedRow = myTableView.indexPathForSelectedRow?.row
                 
-        
-        }
-    
-
-    
-    
-    
-    }
-
+                DetailView.collageDetail = myCollages[selectedRow!]
+                
+                }
+            }

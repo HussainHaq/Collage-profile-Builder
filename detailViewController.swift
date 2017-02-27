@@ -8,7 +8,7 @@
 
 import UIKit
 
-class detailViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     
     @IBOutlet weak var imageView: UIImageView!
@@ -19,7 +19,7 @@ class detailViewController: UIViewController {
     
     @IBOutlet weak var textField3: UITextField!
     
-    var collageDetail:CollagesClass
+    var collageDetail:CollagesClass!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,5 +31,10 @@ class detailViewController: UIViewController {
         
     
     }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+    }
     
+
 }
