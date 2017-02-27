@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class DetailViewController: UIViewController {
 
     
@@ -34,6 +36,12 @@ class DetailViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
+    }
+    @IBAction func saveButton(_ sender: Any) {
+        collageDetail.image = imageView.image
+        collageDetail.name = textField1.text!
+        collageDetail.state = textField2.text!
+        collageDetail.numberOfPeople = textField3.text!
     }
     
 
